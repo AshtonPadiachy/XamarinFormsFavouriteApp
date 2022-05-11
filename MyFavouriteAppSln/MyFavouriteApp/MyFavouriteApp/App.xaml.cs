@@ -10,7 +10,7 @@ namespace MyFavouriteApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage (new AppTabs());
         }
 
         protected override void OnStart()
