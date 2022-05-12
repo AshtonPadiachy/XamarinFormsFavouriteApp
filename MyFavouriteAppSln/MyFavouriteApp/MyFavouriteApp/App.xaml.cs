@@ -10,7 +10,11 @@ namespace MyFavouriteApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage (new AppTabs());
+            //MainPage = new NavigationPage (new AppTabs());
+
+            NavigationPage navPage = new NavigationPage (new AppTabs());
+            navPage.BackgroundColor = Color.White;
+            MainPage = navPage; 
         }
 
         protected override void OnStart()

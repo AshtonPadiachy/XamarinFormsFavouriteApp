@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyFavouriteApp.Downloads" Title="Downloads">
+             x:Class="MyFavouriteApp.Downloads" IconImageSource="download.png" BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
-            <Frame BackgroundColor="DarkSlateGray" Padding="16" CornerRadius="0">
-                <Label Text="Loading Queue" HorizontalTextAlignment="Start" TextColor="White" FontSize="16"/>
+            <Frame BackgroundColor="#000000" Padding="12" CornerRadius="0">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="Manga.png" HeightRequest="50" Aspect="AspectFit" HorizontalOptions="Start"/>
+
+                    <Label Padding="10,0,0,0" Text="Loading Queue" HorizontalTextAlignment="Start" TextColor="White" FontSize="16" VerticalOptions="CenterAndExpand"/>
+
+                </StackLayout>
             </Frame>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

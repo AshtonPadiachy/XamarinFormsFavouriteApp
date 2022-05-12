@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyFavouriteApp.HomePage" Title="Home Page">
+             x:Class="MyFavouriteApp.HomePage" IconImageSource="web.png" BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
-            <Frame BackgroundColor="DarkSlateGray" Padding="16" CornerRadius="0">
+            <Frame BackgroundColor="#000000" Padding="12" CornerRadius="0">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="Manga.png" HeightRequest="50" Aspect="AspectFit" HorizontalOptions="Start"/>
 
@@ -12,12 +12,27 @@
 
                 </StackLayout>
             </Frame>
+            <StackLayout>
+                <Frame BackgroundColor="#000000" Padding="10">
+                    <Label Text="Open Folder " FontSize="14" FontAttributes="Bold"  TextColor="White"  HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"/>
+
+                </Frame>
+
+                <BoxView></BoxView>
+                <ImageButton Source="folder1.png"
+                            x:Name="ImageButton"
+                         HeightRequest="50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                        Clicked="ImageButton_Clicked"   
+                             />
+                
+
+            </StackLayout>
 
 
-            <Label Text="Manga Browser" TextColor="white" VerticalOptions="CenterAndExpand"/>
 
-
-            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

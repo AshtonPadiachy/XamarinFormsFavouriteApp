@@ -15,6 +15,8 @@ namespace MyFavouriteApp
         public Search()
         {
             InitializeComponent();
+
+            SearchBar searchBar = new SearchBar { Placeholder = "Type a Search Keyword ..."};
         }
     }
 }

@@ -10,18 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace MyFavouriteApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Settings : ContentPage
+    public partial class OpenFile : ContentPage
     {
-        public Settings()
+        public OpenFile()
         {
             InitializeComponent();
-
-           // var entry = new Entry { Placeholder = "Email", PlaceholderColor = Color.Gray };
-        }
-
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new SignUp());
         }
     }
 }

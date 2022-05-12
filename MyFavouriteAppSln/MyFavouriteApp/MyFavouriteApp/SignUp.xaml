@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyFavouriteApp.Settings" IconImageSource="settings.png" BackgroundColor="White">
+             x:Class="MyFavouriteApp.SignUp">
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="#000000" Padding="12" CornerRadius="0">
@@ -12,9 +12,6 @@
 
                 </StackLayout>
             </Frame>
-
-
-            <Image Source="Manga.png" HeightRequest="50" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
 
             <Entry Placeholder="Email" PlaceholderColor="Gray" />
 
@@ -30,13 +27,10 @@
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
 
-                <Button Text="Log in"/>
-                <Button x:Name ="SignupButton" Grid.Column="1" Text="Sign Up" Clicked="Button_Clicked" />
-                         
+                <Button Text="Create"/>
+                <Button Grid.Column="1" Text="Cancel" />
+
             </Grid>
-
-            <Label Text="Forget password" HorizontalOptions="Center" TextColor="#000000"/>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

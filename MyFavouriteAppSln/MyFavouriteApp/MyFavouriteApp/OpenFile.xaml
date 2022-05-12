@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFavouriteApp.OpenFile">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="DarkSlateGray" Padding="12" CornerRadius="0">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="folder.png" HeightRequest="40" Aspect="AspectFit" HorizontalOptions="Start"/>
+
+                    <Label Padding="10,0,0,0" Text="Recent Folders" HorizontalTextAlignment="Start" TextColor="White" FontSize="16" VerticalOptions="CenterAndExpand"/>
+
+                </StackLayout>
+            </Frame>
+
+            <Label Text="This is where your files and folders on the phone are!"/>
+            <Label Text=" If you have previously downloaded the Application you will be able to open saved folders of the books on your phone."/>
+
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
