@@ -17,6 +17,8 @@
 
             <Entry Placeholder="Password" PlaceholderColor="Gray" />
 
+            <Entry Placeholder="Re-Type Password" PlaceholderColor="Gray" />
+
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.5*"/>

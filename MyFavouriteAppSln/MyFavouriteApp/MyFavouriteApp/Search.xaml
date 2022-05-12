@@ -13,7 +13,7 @@
                 </StackLayout>
             </Frame>
 
-            <SearchBar Placeholder="Enter Search"/>
+            <SearchBar Placeholder="Type a search keyword ..."/>
 
 
         </StackLayout>

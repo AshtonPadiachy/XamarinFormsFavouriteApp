@@ -15,7 +15,7 @@
             </Frame>
 
             <Label Text="This is where your files and folders on the phone are!"/>
-            <Label Text=" If you have previously downloaded the Application you will be able to open saved folders of the books on your phone."/>
+            <Label Text="If you have previously downloaded the Application you will be able to open saved folders of the books on your phone."/>
 
            
         </StackLayout>
