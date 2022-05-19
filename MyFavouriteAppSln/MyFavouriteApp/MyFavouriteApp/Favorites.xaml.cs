@@ -106,6 +106,14 @@ namespace MyFavouriteApp
 
             Books.Add(book);
 
+            book = new FavouriteBooks();
+            book.TitleOfBook = "Blue Lock";
+            book.ChapterNumbers = 172;
+            book.LatestUpdate = new DateTime(2022, 04, 18);
+            book.NameofImage = "lock.png";
+
+            Books.Add(book);
+
             BindingContext = this;
         }
     }
